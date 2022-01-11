@@ -1,0 +1,2 @@
+class Ranged < ApplicationRecord
+end

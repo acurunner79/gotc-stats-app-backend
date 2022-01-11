@@ -1,0 +1,191 @@
+  [1m[35m (183.6ms)[0m  [1m[35mCREATE DATABASE "gotc_stats_app_api_development" ENCODING = 'unicode'[0m
+  [1m[35m (142.6ms)[0m  [1m[35mCREATE DATABASE "gotc_stats_app_api_test" ENCODING = 'unicode'[0m
+Started GET "/" for 127.0.0.1 at 2022-01-11 15:46:08 -0600
+  [1m[35m (19.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (17.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 2 pending migrations:
+
+20220111202039_create_infantries.rb
+20220111212026_create_rangeds.rb
+
+
+):
+  
+activerecord (6.1.4.4) lib/active_record/migration.rb:625:in `check_pending!'
+activerecord (6.1.4.4) lib/active_record/migration.rb:590:in `block (2 levels) in call'
+activesupport (6.1.4.4) lib/active_support/evented_file_update_checker.rb:59:in `execute'
+activerecord (6.1.4.4) lib/active_record/migration.rb:595:in `block in call'
+activerecord (6.1.4.4) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.4) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/host_authorization.rb:119:in `call'
+railties (6.1.4.4) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-01-11 15:46:08 -0600
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 2 pending migrations:
+
+20220111202039_create_infantries.rb
+20220111212026_create_rangeds.rb
+
+
+):
+  
+activerecord (6.1.4.4) lib/active_record/migration.rb:625:in `check_pending!'
+activerecord (6.1.4.4) lib/active_record/migration.rb:590:in `block (2 levels) in call'
+activesupport (6.1.4.4) lib/active_support/evented_file_update_checker.rb:59:in `execute'
+activerecord (6.1.4.4) lib/active_record/migration.rb:595:in `block in call'
+activerecord (6.1.4.4) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.4.4) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.4) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.4) lib/action_dispatch/middleware/host_authorization.rb:119:in `call'
+railties (6.1.4.4) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8109600521176929600)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateInfantries (20220111202039)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (23.1ms)[0m  [1m[35mCREATE TABLE "infantries" ("id" bigserial primary key, "inf_attack" decimal, "inf_defense" decimal, "inf_health" decimal, "inf_attack_vs_player" decimal, "inf_defense_vs_player" decimal, "inf_health_vs_player" decimal, "inf_attack_vs_players_inf" decimal, "inf_attack_vs_players_range" decimal, "inf_attack_vs_players_cav" decimal, "inf_defense_vs_players_cav" decimal, "inf_defense_vs_players_inf" decimal, "inf_defense_vs_players_range" decimal, "inf_defense_vs_players_siege" decimal, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220111202039"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateRangeds (20220111212026)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (12.4ms)[0m  [1m[35mCREATE TABLE "rangeds" ("id" bigserial primary key, "range_attack" decimal, "range_defense" decimal, "range_health" decimal, "range_attack_vs_player" decimal, "range_defense_vs_player" decimal, "range_health_vs_player" decimal, "range_attack_vs_players_inf" decimal, "range_attack_vs_players_range" decimal, "range_attack_vs_players_cav" decimal, "range_attack_vs_players_siege" decimal, "range_defense_vs_players_cav" decimal, "range_defense_vs_players_inf" decimal, "range_defense_vs_players_range" decimal, "range_defense_vs_players_siege" decimal, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220111212026"]]
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-01-11 21:48:46.031733"], ["updated_at", "2022-01-11 21:48:46.031733"]]
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(8109600521176929600)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2022-01-11 15:49:09 -0600
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jorge/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jorge/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.8ms | Allocations: 417)
+Completed 200 OK in 37ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 3636)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-01-11 15:49:09 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/range" for 127.0.0.1 at 2022-01-11 15:49:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/range"):
+  
+Started GET "/ranged" for 127.0.0.1 at 2022-01-11 15:49:32 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/ranged"):
+  
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mInfantry Create (0.6ms)[0m  [1m[32mINSERT INTO "infantries" ("inf_attack", "inf_defense", "inf_health", "inf_attack_vs_player", "inf_defense_vs_player", "inf_health_vs_player", "inf_attack_vs_players_inf", "inf_attack_vs_players_range", "inf_attack_vs_players_cav", "inf_defense_vs_players_cav", "inf_defense_vs_players_inf", "inf_defense_vs_players_range", "inf_defense_vs_players_siege", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15) RETURNING "id"[0m  [["inf_attack", "275.969"], ["inf_defense", "207.96"], ["inf_health", "143.215"], ["inf_attack_vs_player", "526.386"], ["inf_defense_vs_player", "195.053"], ["inf_health_vs_player", "200.43"], ["inf_attack_vs_players_inf", "102.42"], ["inf_attack_vs_players_range", "48.94"], ["inf_attack_vs_players_cav", "279.003"], ["inf_defense_vs_players_cav", "242.705"], ["inf_defense_vs_players_inf", "8.359999999999999"], ["inf_defense_vs_players_range", "120.736"], ["inf_defense_vs_players_siege", "3.0"], ["created_at", "2022-01-11 21:50:05.868302"], ["updated_at", "2022-01-11 21:50:05.868302"]]
+  [1m[36mTRANSACTION (10.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRanged Create (0.5ms)[0m  [1m[32mINSERT INTO "rangeds" ("range_attack", "range_defense", "range_health", "range_attack_vs_player", "range_defense_vs_player", "range_health_vs_player", "range_attack_vs_players_inf", "range_attack_vs_players_range", "range_attack_vs_players_cav", "range_attack_vs_players_siege", "range_defense_vs_players_cav", "range_defense_vs_players_inf", "range_defense_vs_players_range", "range_defense_vs_players_siege", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["range_attack", "249.637"], ["range_defense", "211.486"], ["range_health", "200.694"], ["range_attack_vs_player", "555.162"], ["range_defense_vs_player", "387.333"], ["range_health_vs_player", "332.806"], ["range_attack_vs_players_inf", "357.828"], ["range_attack_vs_players_range", "190.438"], ["range_attack_vs_players_cav", "92.36"], ["range_attack_vs_players_siege", "4.0"], ["range_defense_vs_players_cav", "160.993"], ["range_defense_vs_players_inf", "262.878"], ["range_defense_vs_players_range", "74.795"], ["range_defense_vs_players_siege", "4.0"], ["created_at", "2022-01-11 21:50:05.927879"], ["updated_at", "2022-01-11 21:50:05.927879"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/ranged" for 127.0.0.1 at 2022-01-11 15:50:18 -0600
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/ranged"):
+  
+Started GET "/ranged" for 127.0.0.1 at 2022-01-11 15:50:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/ranged"):
+  
+Started GET "/ranged" for 127.0.0.1 at 2022-01-11 15:50:22 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/ranged"):
+  
+Started GET "/rangeds" for 127.0.0.1 at 2022-01-11 15:50:39 -0600
+Processing by RangedsController#index as HTML
+  [1m[36mRanged Load (0.9ms)[0m  [1m[34mSELECT "rangeds".* FROM "rangeds"[0m
+  ↳ app/controllers/rangeds_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 10.6ms | ActiveRecord: 4.4ms | Allocations: 10690)
+
+
+Started GET "/infantrys" for 127.0.0.1 at 2022-01-11 15:51:04 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/infantrys"):
+  
+Started GET "/infantries" for 127.0.0.1 at 2022-01-11 15:51:25 -0600
+Processing by InfantriesController#index as HTML
+  [1m[36mInfantry Load (0.5ms)[0m  [1m[34mSELECT "infantries".* FROM "infantries"[0m
+  ↳ app/controllers/infantries_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 10.6ms | ActiveRecord: 2.7ms | Allocations: 8840)
+
+
+Started GET "/" for 127.0.0.1 at 2022-01-11 15:51:55 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jorge/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jorge/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.9ms | Allocations: 214)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 2149)
+
+
