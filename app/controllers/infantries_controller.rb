@@ -1,5 +1,5 @@
 class InfantriesController < ApplicationController
-  before_action :set_infantry, only: [:show, :create, :update, :destroy]
+  before_action :set_infantry,  only: [:show, :create, :update, :destroy]
 
   # GET /infantries
   def index
@@ -10,15 +10,18 @@ class InfantriesController < ApplicationController
 
   # GET /infantries/1
   def show
-    render json: @infantry
+    @infantry = Infantry.find(params[:id])
+    # render json: infantry
   end
 
   # POST /infantries
   def create
+    # infantry = Infantry.new(infantry_params)
     @infantry = Infantry.new(infantry_params)
 
     if @infantry.save
-      render json: @infantry, status: :created, location: @infantry
+      render json: @infantry, status: :created
+      # , location: @infantry
     else
       render json: @infantry.errors, status: :unprocessable_entity
     end
@@ -41,8 +44,12 @@ class InfantriesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_infantry
-      @infantry = Infantry.find(params[:id])
+      @infantry = Infantry.new(params[:id])
     end
+
+    # def update_infantry
+    #   @infantry = Infantry.update(params[:id])
+    # end
 
     # Only allow a list of trusted parameters through.
     def infantry_params
