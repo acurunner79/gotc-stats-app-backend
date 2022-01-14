@@ -1303,3 +1303,12 @@ Processing by InfantriesController#index as HTML
 Completed 200 OK in 15ms (Views: 10.6ms | ActiveRecord: 3.2ms | Allocations: 9663)
 
 
+Started GET "/rangeds" for ::1 at 2022-01-13 22:42:41 -0600
+  
+SyntaxError (/home/jorge/Desktop/gotc_stats_app/gotc_stats_app_api/app/controllers/rangeds_controller.rb:19: syntax error, unexpected local variable or method, expecting `end'
+      render status: 201 json: { ranged: ranged }
+                         ^~~~
+):
+  
+app/controllers/rangeds_controller.rb:19: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/rangeds_controller.rb:19: syntax error, unexpected local variable or method, expecting `end'

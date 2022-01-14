@@ -16,7 +16,7 @@ class RangedsController < ApplicationController
     ranged = Ranged.new(ranged_params)
 
     if ranged.save
-      render status: 201 json: { ranged: ranged }
+      render status: 201, json: { ranged: ranged }
     else
       render status: 422, json: { ranged: ranged }
     end
