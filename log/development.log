@@ -896,3 +896,410 @@ Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 1
 ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
   
 app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries/2" for ::1 at 2022-01-13 16:44:56 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"125.969", "id"=>"2", "infantry"=>{"inf_attack"=>"125.969"}}
+Completed 500 Internal Server Error in 0ms (Allocations: 147)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries" for ::1 at 2022-01-13 16:45:35 -0600
+Processing by InfantriesController#index as */*
+  Parameters: {"inf_attack"=>"125.969", "infantry"=>{"inf_attack"=>"125.969"}}
+  [1m[36mInfantry Load (11.8ms)[0m  [1m[34mSELECT "infantries".* FROM "infantries"[0m
+  ↳ app/controllers/infantries_controller.rb:8:in `index'
+Completed 200 OK in 28ms (Views: 21.6ms | ActiveRecord: 14.6ms | Allocations: 8263)
+
+
+Started GET "/infantries/2" for ::1 at 2022-01-13 16:46:14 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"125.969", "id"=>"2", "infantry"=>{"inf_attack"=>"125.969"}}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 4.4ms | Allocations: 6225)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries/2" for ::1 at 2022-01-13 16:47:28 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"125.969", "id"=>"2", "infantry"=>{"inf_attack"=>"125.969"}}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 3.0ms | Allocations: 6281)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries" for ::1 at 2022-01-13 16:47:48 -0600
+Processing by InfantriesController#index as HTML
+  [1m[36mInfantry Load (0.3ms)[0m  [1m[34mSELECT "infantries".* FROM "infantries"[0m
+  ↳ app/controllers/infantries_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1534)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-01-13 16:47:48 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/infantries/2" for ::1 at 2022-01-13 16:47:54 -0600
+Processing by InfantriesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 149)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries/2" for ::1 at 2022-01-13 17:13:20 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"125.969", "id"=>"2", "infantry"=>{"inf_attack"=>"125.969"}}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 2.8ms | Allocations: 6253)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:49:in `set_infantry'
+Started GET "/infantries/2" for ::1 at 2022-01-13 17:13:22 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"125.969", "id"=>"2", "infantry"=>{"inf_attack"=>"125.969"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 127)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:49:in `set_infantry'
+Started GET "/infantries/2" for ::1 at 2022-01-13 17:14:05 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"125.969", "id"=>"2", "infantry"=>{"inf_attack"=>"125.969"}}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 2.7ms | Allocations: 6249)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries/2" for ::1 at 2022-01-13 17:14:06 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"125.969", "id"=>"2", "infantry"=>{"inf_attack"=>"125.969"}}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 127)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries/2" for ::1 at 2022-01-13 17:15:05 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"125.969", "id"=>"2", "infantry"=>{"inf_attack"=>"125.969"}}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 2.3ms | Allocations: 6237)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries/2" for ::1 at 2022-01-13 17:15:07 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"125.969", "id"=>"2", "infantry"=>{"inf_attack"=>"125.969"}}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 127)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries/2" for ::1 at 2022-01-13 17:19:27 -0600
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"125.969", "id"=>"2", "infantry"=>{"inf_attack"=>"125.969"}}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 3.8ms | Allocations: 7168)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries" for ::1 at 2022-01-13 17:19:38 -0600
+Processing by InfantriesController#index as */*
+  Parameters: {"inf_attack"=>"125.969", "infantry"=>{"inf_attack"=>"125.969"}}
+  [1m[36mInfantry Load (0.3ms)[0m  [1m[34mSELECT "infantries".* FROM "infantries"[0m
+  ↳ app/controllers/infantries_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 5123)
+
+
+Started GET "/infantries/1" for ::1 at 2022-01-13 18:35:04 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0", "id"=>"1", "infantry"=>{"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0"}}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 3.0ms | Allocations: 6216)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries/1" for ::1 at 2022-01-13 18:35:24 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0", "id"=>"1", "infantry"=>{"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0"}}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 3.2ms | Allocations: 6243)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries/1" for ::1 at 2022-01-13 18:36:15 -0600
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0", "id"=>"1", "infantry"=>{"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0"}}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 2.2ms | Allocations: 7168)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries/1" for ::1 at 2022-01-13 18:36:16 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0", "id"=>"1", "infantry"=>{"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0"}}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 138)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries" for ::1 at 2022-01-13 18:50:53 -0600
+Processing by InfantriesController#index as */*
+  Parameters: {"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0", "infantry"=>{"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0"}}
+  [1m[36mInfantry Load (0.3ms)[0m  [1m[34mSELECT "infantries".* FROM "infantries"[0m
+  ↳ app/controllers/infantries_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 4.4ms | Allocations: 10071)
+
+
+Started GET "/infantries/1" for ::1 at 2022-01-13 18:56:28 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0", "id"=>"1", "infantry"=>{"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0"}}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 3.1ms | Allocations: 6233)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries/1" for ::1 at 2022-01-13 18:57:20 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0", "id"=>"1", "infantry"=>{"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0"}}
+  [1m[36mInfantry Load (0.4ms)[0m  [1m[34mSELECT "infantries".* FROM "infantries" WHERE "infantries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/infantries_controller.rb:14:in `show'
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 4.7ms | Allocations: 8005)
+
+
+Started GET "/infantries/1" for ::1 at 2022-01-13 18:57:29 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0", "id"=>"1", "infantry"=>{"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0"}}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 2.3ms | Allocations: 6237)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/infantries_controller.rb:47:in `set_infantry'
+Started GET "/infantries/1" for ::1 at 2022-01-13 18:57:41 -0600
+Processing by InfantriesController#show as */*
+  Parameters: {"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0", "id"=>"1", "infantry"=>{"inf_attack"=>"5.969", "inf_defense"=>"7.96", "inf_health"=>"3.215", "inf_attack_vs_player"=>"6.386", "inf_defense_vs_player"=>"5.053", "inf_health_vs_player"=>"20.43", "inf_attack_vs_players_inf"=>"2.42", "inf_attack_vs_players_range"=>"8.94", "inf_attack_vs_players_cav"=>"9.003", "inf_defense_vs_players_cav"=>"2.705", "inf_defense_vs_players_inf"=>"8.359999999999999", "inf_defense_vs_players_range"=>"12.736", "inf_defense_vs_players_siege"=>"1.0"}}
+  [1m[36mInfantry Load (0.3ms)[0m  [1m[34mSELECT "infantries".* FROM "infantries" WHERE "infantries"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/infantries_controller.rb:14:in `show'
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 3.2ms | Allocations: 7358)
+
+
+Started PUT "/infantries/2" for ::1 at 2022-01-13 18:58:15 -0600
+Processing by InfantriesController#update as */*
+  Parameters: {"inf_attack"=>"125.969", "id"=>"2", "infantry"=>{"inf_attack"=>"125.969"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 701)
+
+
+  
+NoMethodError (undefined method `update' for nil:NilClass):
+  
+app/controllers/infantries_controller.rb:32:in `update'
+Started POST "/infantries" for ::1 at 2022-01-13 18:59:46 -0600
+Processing by InfantriesController#create as */*
+  Parameters: {"inf_attack"=>"15.969", "inf_defense"=>"17.96", "inf_health"=>"13.215", "inf_attack_vs_player"=>"16.386", "inf_defense_vs_player"=>"15.053", "inf_health_vs_player"=>"120.43", "inf_attack_vs_players_inf"=>"12.42", "inf_attack_vs_players_range"=>"18.94", "inf_attack_vs_players_cav"=>"19.003", "inf_defense_vs_players_cav"=>"12.705", "inf_defense_vs_players_inf"=>"18.359999999999999", "inf_defense_vs_players_range"=>"112.736", "inf_defense_vs_players_siege"=>"11.0", "infantry"=>{"inf_attack"=>"15.969", "inf_defense"=>"17.96", "inf_health"=>"13.215", "inf_attack_vs_player"=>"16.386", "inf_defense_vs_player"=>"15.053", "inf_health_vs_player"=>"120.43", "inf_attack_vs_players_inf"=>"12.42", "inf_attack_vs_players_range"=>"18.94", "inf_attack_vs_players_cav"=>"19.003", "inf_defense_vs_players_cav"=>"12.705", "inf_defense_vs_players_inf"=>"18.359999999999999", "inf_defense_vs_players_range"=>"112.736", "inf_defense_vs_players_siege"=>"11.0"}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/infantries_controller.rb:22:in `create'
+  [1m[36mInfantry Create (11.9ms)[0m  [1m[32mINSERT INTO "infantries" ("inf_attack", "inf_defense", "inf_health", "inf_attack_vs_player", "inf_defense_vs_player", "inf_health_vs_player", "inf_attack_vs_players_inf", "inf_attack_vs_players_range", "inf_attack_vs_players_cav", "inf_defense_vs_players_cav", "inf_defense_vs_players_inf", "inf_defense_vs_players_range", "inf_defense_vs_players_siege", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15) RETURNING "id"[0m  [["inf_attack", "15.969"], ["inf_defense", "17.96"], ["inf_health", "13.215"], ["inf_attack_vs_player", "16.386"], ["inf_defense_vs_player", "15.053"], ["inf_health_vs_player", "120.43"], ["inf_attack_vs_players_inf", "12.42"], ["inf_attack_vs_players_range", "18.94"], ["inf_attack_vs_players_cav", "19.003"], ["inf_defense_vs_players_cav", "12.705"], ["inf_defense_vs_players_inf", "18.359999999999999"], ["inf_defense_vs_players_range", "112.736"], ["inf_defense_vs_players_siege", "11.0"], ["created_at", "2022-01-14 00:59:46.480304"], ["updated_at", "2022-01-14 00:59:46.480304"]]
+  ↳ app/controllers/infantries_controller.rb:22:in `create'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/infantries_controller.rb:22:in `create'
+Completed 201 Created in 20ms (Views: 0.7ms | ActiveRecord: 14.1ms | Allocations: 2908)
+
+
+Started PUT "/infantries/2" for ::1 at 2022-01-13 19:11:14 -0600
+Processing by InfantriesController#update as */*
+  Parameters: {"inf_attack"=>"115.969", "id"=>"2", "infantry"=>{"inf_attack"=>"115.969"}}
+Completed 500 Internal Server Error in 1ms (Allocations: 591)
+
+
+  
+NoMethodError (undefined method `update' for nil:NilClass):
+  
+app/controllers/infantries_controller.rb:32:in `update'
+Started PUT "/infantries/2" for ::1 at 2022-01-13 19:11:55 -0600
+Processing by InfantriesController#update as */*
+  Parameters: {"inf_attack"=>"115.969", "id"=>"2", "infantry"=>{"inf_attack"=>"115.969"}}
+  [1m[36mInfantry Load (0.4ms)[0m  [1m[34mSELECT "infantries".* FROM "infantries"[0m
+  ↳ app/controllers/infantries_controller.rb:32:in `update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/infantries_controller.rb:32:in `update'
+  [1m[36mInfantry Update (0.5ms)[0m  [1m[33mUPDATE "infantries" SET "inf_attack" = $1, "updated_at" = $2 WHERE "infantries"."id" = $3[0m  [["inf_attack", "115.969"], ["updated_at", "2022-01-14 01:11:55.044694"], ["id", 1]]
+  ↳ app/controllers/infantries_controller.rb:32:in `update'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/infantries_controller.rb:32:in `update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/infantries_controller.rb:32:in `update'
+  [1m[36mInfantry Update (0.3ms)[0m  [1m[33mUPDATE "infantries" SET "inf_attack" = $1, "updated_at" = $2 WHERE "infantries"."id" = $3[0m  [["inf_attack", "115.969"], ["updated_at", "2022-01-14 01:11:55.049626"], ["id", 2]]
+  ↳ app/controllers/infantries_controller.rb:32:in `update'
+  [1m[36mTRANSACTION (4.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/infantries_controller.rb:32:in `update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/infantries_controller.rb:32:in `update'
+  [1m[36mInfantry Update (0.3ms)[0m  [1m[33mUPDATE "infantries" SET "inf_attack" = $1, "updated_at" = $2 WHERE "infantries"."id" = $3[0m  [["inf_attack", "115.969"], ["updated_at", "2022-01-14 01:11:55.057020"], ["id", 3]]
+  ↳ app/controllers/infantries_controller.rb:32:in `update'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/infantries_controller.rb:32:in `update'
+Completed 200 OK in 25ms (Views: 0.1ms | ActiveRecord: 13.0ms | Allocations: 12802)
+
+
+Started GET "/infantries" for ::1 at 2022-01-13 19:12:11 -0600
+Processing by InfantriesController#index as */*
+  Parameters: {"inf_attack"=>"115.969", "infantry"=>{"inf_attack"=>"115.969"}}
+  [1m[36mInfantry Load (0.3ms)[0m  [1m[34mSELECT "infantries".* FROM "infantries"[0m
+  ↳ app/controllers/infantries_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1536)
+
+
+Started POST "/infantries" for ::1 at 2022-01-13 19:21:45 -0600
+Processing by InfantriesController#create as */*
+  Parameters: {"inf_attack"=>"15.969", "inf_defense"=>"17.96", "inf_health"=>"13.215", "inf_attack_vs_player"=>"16.386", "inf_defense_vs_player"=>"15.053", "inf_health_vs_player"=>"120.43", "inf_attack_vs_players_inf"=>"12.42", "inf_attack_vs_players_range"=>"18.94", "inf_attack_vs_players_cav"=>"19.003", "inf_defense_vs_players_cav"=>"12.705", "inf_defense_vs_players_inf"=>"18.359999999999999", "inf_defense_vs_players_range"=>"112.736", "inf_defense_vs_players_siege"=>"11.0", "infantry"=>{"inf_attack"=>"15.969", "inf_defense"=>"17.96", "inf_health"=>"13.215", "inf_attack_vs_player"=>"16.386", "inf_defense_vs_player"=>"15.053", "inf_health_vs_player"=>"120.43", "inf_attack_vs_players_inf"=>"12.42", "inf_attack_vs_players_range"=>"18.94", "inf_attack_vs_players_cav"=>"19.003", "inf_defense_vs_players_cav"=>"12.705", "inf_defense_vs_players_inf"=>"18.359999999999999", "inf_defense_vs_players_range"=>"112.736", "inf_defense_vs_players_siege"=>"11.0"}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/infantries_controller.rb:19:in `create'
+  [1m[36mInfantry Create (0.7ms)[0m  [1m[32mINSERT INTO "infantries" ("inf_attack", "inf_defense", "inf_health", "inf_attack_vs_player", "inf_defense_vs_player", "inf_health_vs_player", "inf_attack_vs_players_inf", "inf_attack_vs_players_range", "inf_attack_vs_players_cav", "inf_defense_vs_players_cav", "inf_defense_vs_players_inf", "inf_defense_vs_players_range", "inf_defense_vs_players_siege", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15) RETURNING "id"[0m  [["inf_attack", "15.969"], ["inf_defense", "17.96"], ["inf_health", "13.215"], ["inf_attack_vs_player", "16.386"], ["inf_defense_vs_player", "15.053"], ["inf_health_vs_player", "120.43"], ["inf_attack_vs_players_inf", "12.42"], ["inf_attack_vs_players_range", "18.94"], ["inf_attack_vs_players_cav", "19.003"], ["inf_defense_vs_players_cav", "12.705"], ["inf_defense_vs_players_inf", "18.359999999999999"], ["inf_defense_vs_players_range", "112.736"], ["inf_defense_vs_players_siege", "11.0"], ["created_at", "2022-01-14 01:21:45.151144"], ["updated_at", "2022-01-14 01:21:45.151144"]]
+  ↳ app/controllers/infantries_controller.rb:19:in `create'
+  [1m[36mTRANSACTION (15.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/infantries_controller.rb:19:in `create'
+Completed 200 OK in 29ms (Views: 0.3ms | ActiveRecord: 21.4ms | Allocations: 8790)
+
+
+Started POST "/infantries" for ::1 at 2022-01-13 22:13:52 -0600
+  
+SyntaxError (/home/jorge/Desktop/gotc_stats_app/gotc_stats_app_api/app/controllers/infantries_controller.rb:22: syntax error, unexpected local variable or method, expecting `end'
+      render status: 201 json: {infantry: infantry}
+                         ^~~~
+):
+  
+app/controllers/infantries_controller.rb:22: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/infantries_controller.rb:22: syntax error, unexpected local variable or method, expecting `end'
+Started POST "/infantries" for ::1 at 2022-01-13 22:15:00 -0600
+  
+SyntaxError (/home/jorge/Desktop/gotc_stats_app/gotc_stats_app_api/app/controllers/infantries_controller.rb:22: syntax error, unexpected local variable or method, expecting `end'
+      render status: 201 json: {infantry: infantry}
+                         ^~~~
+/home/jorge/Desktop/gotc_stats_app/gotc_stats_app_api/app/controllers/infantries_controller.rb:59: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/infantries_controller.rb:22: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/infantries_controller.rb:59: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/infantries_controller.rb:22: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/infantries_controller.rb:59: syntax error, unexpected end-of-input, expecting `end'
+Started POST "/infantries" for ::1 at 2022-01-13 22:15:21 -0600
+  
+SyntaxError (/home/jorge/Desktop/gotc_stats_app/gotc_stats_app_api/app/controllers/infantries_controller.rb:22: syntax error, unexpected local variable or method, expecting `end'
+      render status: 201 json: {infantry: infantry}
+                         ^~~~
+):
+  
+app/controllers/infantries_controller.rb:22: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/infantries_controller.rb:22: syntax error, unexpected local variable or method, expecting `end'
+Started POST "/infantries" for ::1 at 2022-01-13 22:16:27 -0600
+Processing by InfantriesController#create as */*
+  Parameters: {"inf_attack"=>"315.969", "inf_defense"=>"17.96", "inf_health"=>"13.215", "inf_attack_vs_player"=>"16.386", "inf_defense_vs_player"=>"15.053", "inf_health_vs_player"=>"120.43", "inf_attack_vs_players_inf"=>"12.42", "inf_attack_vs_players_range"=>"18.94", "inf_attack_vs_players_cav"=>"19.003", "inf_defense_vs_players_cav"=>"12.705", "inf_defense_vs_players_inf"=>"18.359999999999999", "inf_defense_vs_players_range"=>"112.736", "inf_defense_vs_players_siege"=>"11.0", "infantry"=>{"inf_attack"=>"315.969", "inf_defense"=>"17.96", "inf_health"=>"13.215", "inf_attack_vs_player"=>"16.386", "inf_defense_vs_player"=>"15.053", "inf_health_vs_player"=>"120.43", "inf_attack_vs_players_inf"=>"12.42", "inf_attack_vs_players_range"=>"18.94", "inf_attack_vs_players_cav"=>"19.003", "inf_defense_vs_players_cav"=>"12.705", "inf_defense_vs_players_inf"=>"18.359999999999999", "inf_defense_vs_players_range"=>"112.736", "inf_defense_vs_players_siege"=>"11.0"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/infantries_controller.rb:21:in `create'
+  [1m[36mInfantry Create (0.5ms)[0m  [1m[32mINSERT INTO "infantries" ("inf_attack", "inf_defense", "inf_health", "inf_attack_vs_player", "inf_defense_vs_player", "inf_health_vs_player", "inf_attack_vs_players_inf", "inf_attack_vs_players_range", "inf_attack_vs_players_cav", "inf_defense_vs_players_cav", "inf_defense_vs_players_inf", "inf_defense_vs_players_range", "inf_defense_vs_players_siege", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15) RETURNING "id"[0m  [["inf_attack", "315.969"], ["inf_defense", "17.96"], ["inf_health", "13.215"], ["inf_attack_vs_player", "16.386"], ["inf_defense_vs_player", "15.053"], ["inf_health_vs_player", "120.43"], ["inf_attack_vs_players_inf", "12.42"], ["inf_attack_vs_players_range", "18.94"], ["inf_attack_vs_players_cav", "19.003"], ["inf_defense_vs_players_cav", "12.705"], ["inf_defense_vs_players_inf", "18.359999999999999"], ["inf_defense_vs_players_range", "112.736"], ["inf_defense_vs_players_siege", "11.0"], ["created_at", "2022-01-14 04:16:27.042708"], ["updated_at", "2022-01-14 04:16:27.042708"]]
+  ↳ app/controllers/infantries_controller.rb:21:in `create'
+  [1m[36mTRANSACTION (15.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/infantries_controller.rb:21:in `create'
+Completed 201 Created in 24ms (Views: 0.3ms | ActiveRecord: 18.6ms | Allocations: 8810)
+
+
+Started DELETE "/infantries/5" for ::1 at 2022-01-13 22:21:14 -0600
+Processing by InfantriesController#destroy as */*
+  Parameters: {"inf_attack"=>"315.969", "inf_defense"=>"17.96", "inf_health"=>"13.215", "inf_attack_vs_player"=>"16.386", "inf_defense_vs_player"=>"15.053", "inf_health_vs_player"=>"120.43", "inf_attack_vs_players_inf"=>"12.42", "inf_attack_vs_players_range"=>"18.94", "inf_attack_vs_players_cav"=>"19.003", "inf_defense_vs_players_cav"=>"12.705", "inf_defense_vs_players_inf"=>"18.359999999999999", "inf_defense_vs_players_range"=>"112.736", "inf_defense_vs_players_siege"=>"11.0", "id"=>"5", "infantry"=>{"inf_attack"=>"315.969", "inf_defense"=>"17.96", "inf_health"=>"13.215", "inf_attack_vs_player"=>"16.386", "inf_defense_vs_player"=>"15.053", "inf_health_vs_player"=>"120.43", "inf_attack_vs_players_inf"=>"12.42", "inf_attack_vs_players_range"=>"18.94", "inf_attack_vs_players_cav"=>"19.003", "inf_defense_vs_players_cav"=>"12.705", "inf_defense_vs_players_inf"=>"18.359999999999999", "inf_defense_vs_players_range"=>"112.736", "inf_defense_vs_players_siege"=>"11.0"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 2.8ms | Allocations: 578)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/infantries_controller.rb:37:in `destroy'
+Started DELETE "/infantries/5" for ::1 at 2022-01-13 22:21:31 -0600
+Processing by InfantriesController#destroy as */*
+  Parameters: {"inf_attack"=>"315.969", "inf_defense"=>"17.96", "inf_health"=>"13.215", "inf_attack_vs_player"=>"16.386", "inf_defense_vs_player"=>"15.053", "inf_health_vs_player"=>"120.43", "inf_attack_vs_players_inf"=>"12.42", "inf_attack_vs_players_range"=>"18.94", "inf_attack_vs_players_cav"=>"19.003", "inf_defense_vs_players_cav"=>"12.705", "inf_defense_vs_players_inf"=>"18.359999999999999", "inf_defense_vs_players_range"=>"112.736", "inf_defense_vs_players_siege"=>"11.0", "id"=>"5", "infantry"=>{"inf_attack"=>"315.969", "inf_defense"=>"17.96", "inf_health"=>"13.215", "inf_attack_vs_player"=>"16.386", "inf_defense_vs_player"=>"15.053", "inf_health_vs_player"=>"120.43", "inf_attack_vs_players_inf"=>"12.42", "inf_attack_vs_players_range"=>"18.94", "inf_attack_vs_players_cav"=>"19.003", "inf_defense_vs_players_cav"=>"12.705", "inf_defense_vs_players_inf"=>"18.359999999999999", "inf_defense_vs_players_range"=>"112.736", "inf_defense_vs_players_siege"=>"11.0"}}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 1.1ms | Allocations: 152)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/infantries_controller.rb:37:in `destroy'
+Started PUT "/infantries/5" for ::1 at 2022-01-13 22:26:26 -0600
+Processing by InfantriesController#update as */*
+  Parameters: {"inf_attack"=>"215.969", "id"=>"5", "infantry"=>{"inf_attack"=>"215.969"}}
+  [1m[36mInfantry Load (0.4ms)[0m  [1m[34mSELECT "infantries".* FROM "infantries" WHERE "infantries"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/infantries_controller.rb:28:in `update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/infantries_controller.rb:29:in `update'
+  [1m[36mInfantry Update (0.4ms)[0m  [1m[33mUPDATE "infantries" SET "inf_attack" = $1, "updated_at" = $2 WHERE "infantries"."id" = $3[0m  [["inf_attack", "215.969"], ["updated_at", "2022-01-14 04:26:26.607957"], ["id", 5]]
+  ↳ app/controllers/infantries_controller.rb:29:in `update'
+  [1m[36mTRANSACTION (16.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/infantries_controller.rb:29:in `update'
+Completed 200 OK in 31ms (Views: 0.4ms | ActiveRecord: 20.9ms | Allocations: 9394)
+
+
+Started DELETE "/infantries/5" for ::1 at 2022-01-13 22:26:49 -0600
+Processing by InfantriesController#destroy as */*
+  Parameters: {"inf_attack"=>"215.969", "id"=>"5", "infantry"=>{"inf_attack"=>"215.969"}}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 103)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/infantries_controller.rb:40:in `destroy'
+Started DELETE "/infantries/5" for ::1 at 2022-01-13 22:27:46 -0600
+Processing by InfantriesController#destroy as */*
+  Parameters: {"inf_attack"=>"215.969", "id"=>"5", "infantry"=>{"inf_attack"=>"215.969"}}
+  [1m[36mInfantry Load (0.2ms)[0m  [1m[34mSELECT "infantries".* FROM "infantries" WHERE "infantries"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/infantries_controller.rb:40:in `destroy'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/infantries_controller.rb:40:in `destroy'
+  [1m[36mInfantry Destroy (0.4ms)[0m  [1m[31mDELETE FROM "infantries" WHERE "infantries"."id" = $1[0m  [["id", 5]]
+  ↳ app/controllers/infantries_controller.rb:40:in `destroy'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/infantries_controller.rb:40:in `destroy'
+Completed 204 No Content in 14ms (Views: 0.1ms | ActiveRecord: 5.2ms | Allocations: 8453)
+
+
+Started GET "/infantries" for ::1 at 2022-01-13 22:31:13 -0600
+Processing by InfantriesController#index as HTML
+  [1m[36mInfantry Load (0.3ms)[0m  [1m[34mSELECT "infantries".* FROM "infantries"[0m
+  ↳ app/controllers/infantries_controller.rb:6:in `index'
+Completed 200 OK in 15ms (Views: 10.6ms | ActiveRecord: 3.2ms | Allocations: 9663)
+
+
