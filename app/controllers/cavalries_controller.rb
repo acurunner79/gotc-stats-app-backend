@@ -18,7 +18,7 @@ class CavalriesController < ApplicationController
     if cavalry.save
       render status: 201, json: { cavalry: cavalry }
     else
-      render status 422, json: { cavalry: cavalry }
+      render status: 422, json: { cavalry: cavalry }
     end
   end
 

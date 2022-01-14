@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_01_14_053021) do
+ActiveRecord::Schema.define(version: 2022_01_14_210726) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,6 +32,7 @@ ActiveRecord::Schema.define(version: 2022_01_14_053021) do
     t.decimal "cav_defense_vs_players_siege"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id"
   end
 
   create_table "infantries", force: :cascade do |t|
@@ -50,6 +51,7 @@ ActiveRecord::Schema.define(version: 2022_01_14_053021) do
     t.decimal "inf_defense_vs_players_siege"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id"
   end
 
   create_table "rangeds", force: :cascade do |t|
@@ -67,6 +69,15 @@ ActiveRecord::Schema.define(version: 2022_01_14_053021) do
     t.decimal "range_defense_vs_players_inf"
     t.decimal "range_defense_vs_players_range"
     t.decimal "range_defense_vs_players_siege"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "username"
+    t.string "password"
+    t.string "ingame_name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
