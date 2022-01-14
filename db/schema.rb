@@ -10,10 +10,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_01_11_212026) do
+ActiveRecord::Schema.define(version: 2022_01_14_053021) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "cavalries", force: :cascade do |t|
+    t.decimal "cav_attack"
+    t.decimal "cav_defense"
+    t.decimal "cav_health"
+    t.decimal "cav_attack_vs_player"
+    t.decimal "cav_defense_vs_player"
+    t.decimal "cav_health_vs_player"
+    t.decimal "cav_attack_vs_players_inf"
+    t.decimal "cav_attack_vs_players_ranged"
+    t.decimal "cav_attack_vs_players_cav"
+    t.decimal "cav_attack_vs_players_siege"
+    t.decimal "cav_defense_vs_players_cav"
+    t.decimal "cav_defense_vs_players_inf"
+    t.decimal "cav_defense_vs_players_ranged"
+    t.decimal "cav_defense_vs_players_siege"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "infantries", force: :cascade do |t|
     t.decimal "inf_attack"

@@ -1,0 +1,2 @@
+class Cavalry < ApplicationRecord
+end
